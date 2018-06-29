@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Partage de photos entre utilisateurs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/asciidoctor.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="../favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">bbo-log</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../feed.xml">S'abonner</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+	
+	<div class="page-header">
+		<h1>Partage de photos entre utilisateurs</h1>
+	</div>
+
+	<p><em>25 juillet 2016</em></p>
+
+	<p><p>Pour les photos partagées entre plusieurs utilisateurs</p> 
+<p>Les utilisateurs de ma machine</p> 
+<p>Imaginons un ordinateur familial partagé par plusieurs utilisateurs. Chaque utilisateur a son compte et ses photos personnelles se trouvent dans son ~/Images.</p> 
+<h2>Description du problème</h2> 
+<p>Tous les utilisateurs ont de très nombreuses photos communes (évènements familiaux, vacances, etc). Pour éviter la duplication, ils partagent photos communes dans un répertoire partagé (/home/partage/Images)<br> Chaque utilisateur doit pouvoir importer des photos dans le dossier partagé<br> L'autre utilisateur verra automatiquement les nouvelles photos dans son logiciel lors du prochain lancement<br> Pour éviter la duplication de l'effort, le nom de l'album et les éventuelles étiquettes devront aussi être partagées de manière à ce que l'autre utilisateur en profite.</p> 
+<h2>Contraintes</h2> 
+<p>Les photos doivent être accessibles hors-ligne.</p> 
+<p>Idéalement :<br> - l'importation devrait juste demander le nom de l'album puis automatiquement importer toutes les photos dans un dossier au nom de l'album.<br> - l'album se trouvant dans une arborescence de date :<br> -- par exemple, l'album "Voyage en Belgique" se trouvera dans l'arborescence "2016/08-aout/Voyage en Belgique"<br> -- si cela doit être configuré, ca serait bien que cela soit persistant<br> - les 2 collections (privée et partagée) doivent se gérer depuis la même instance du logiciel (plus pratique à mes yeux)<br> - le choix de la collection doit se faire au moment de l'importation</p> 
+<h1>KDE</h1> 
+<p>digikam permet d'entretenir plusieurs collections (album de haut niveau)<br> mise à jour automatique des collections ?<br> partage des étiquettes ?<br> partage des noms d'albums ?</p> 
+<h1>GNOME</h1> 
+<p>Script d'initilisation (dans ~/bin)<br> Faire un .desktop dédié<br> Place this file in the /usr/share/applications directory so that it is accessible by everyone, or in ~/.local/share/applications</p> 
+<p><a href="https://developer.gnome.org/integration-guide/stable/desktop-files.html.en">https://developer.gnome.org/integration-guide/stable/desktop-files.html.en</a></p></p>
+
+	<hr />
+	
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.6.1</a></p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/prettify.js"></script>
+    
+  </body>
+</html>

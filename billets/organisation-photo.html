@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Gestion de ma phototèque</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/asciidoctor.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="../favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">bbo-log</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../feed.xml">S'abonner</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+	
+	<div class="page-header">
+		<h1>Gestion de ma phototèque</h1>
+	</div>
+
+	<p><em>28 juillet 2016</em></p>
+
+	<p><p><em>Note : article commencé cet été mais jamais publié car jamais considéré comme terminé. Est-il plus terminé maintenant, je ne sais pas. Mais au moins il est publié...</em></p> 
+<p>Dans le <a href="http://www.competencephoto.com/Competence-Photo-Numero-53-en-kiosque-le-30-juin-2016_a2817.html">dernier numéro de Compétence Photo</a>, un article traite du catalogage de ses photos.</p> 
+<p>Je saisi la balle au bond pour partager ma manière de faire. Je précise que 95% de mes photos sont de la photo de famille/photo souvenir et que je shoote en JPEG.</p> 
+<h2>Stratégie</h2> 
+<p>Je range mes photos à deux endroits :</p> 
+<ul> 
+ <li>Dans le répertoire Images de mon compte pour les photos personnelles, de sorties, d'essais, etc. Au risque d'enfoncer une porte ouverte, ce répertoire n'est accessible que par moi.</li> 
+ <li>Dans un répertoire partagé pour les photos familiales/communes. Il est accessible par tous les utilisateurs de l'ordinateur</li> 
+</ul> 
+<p>L'avantage d'avoir deux endroits permet à chaque utilisateur de conserver son espace privé tout en évitant la duplication des photos communes.</p> 
+<h2>Logiciel</h2> 
+<p>Je suis un utilisateur de <a href="https://wiki.gnome.org/Apps/Shotwell">Shotwell</a>. Il me permet d'importer les photos dans mon répertoire personnel ou dans le répertoire partagé en fonction de la série.</p> 
+<h2>Arborescence</h2> 
+<p>Comme l'auteur de l'article, j'ai choisi une arborescence par date et non par thème. Après avoir essayé il y a quelques années une arborescence à 2 niveaux <em>année-mois/jour</em>, le volume important de dossiers m'a fait passé il y a plusieurs mois sur une arborescence à 3 niveaux <em>année/mois/jour</em>.</p> 
+<p>Pour illustrer mon arborescence, une photo du 27 juillet 2016 sera placée dans le dossier <em>2016/07-juillet/2016-07-27</em>.</p> 
+<p>Quelques précisions :</p> 
+<ul> 
+ <li>J'aime bien voir le mois écrit de toute lettre (un TOC peut-être ?). Je préfixe avec le numéro pour que les mois soient correctement classés dans mon navigateur de fichier</li> 
+ <li>Le dossier du jour contient aussi l'année et le mois car cela facilite l'export du dossier, sur clef USB par exemple (cela évite de se retrouver avec un 27.zip sur la clef).</li> 
+</ul> 
+<h2>Renommage</h2> 
+<p>Contrairement à l'auteur, je ne renomme pas mes dossiers importés pour ajouter l'évènement. Pourtant, je pense que ca serait pratique d'avoir l'info à ce niveau là.</p> 
+<p>Je ne renomme pas non plus les photos. Elles conservent le nom donné par l'appareil. Comme j'importe souvent plusieurs évènements d'un coup, cela me permet juste de laisser le logiciel faire automatiquement le rangement.</p> 
+<p>Il faudrait cependant que je vérifie si Shotwell a une fonction de renommage de masse.</p> 
+<h2>Etiquettes</h2> 
+<p>Shotwell possède une fonctionnalité "basique" d'étiquettage des photos. Son seul inconvénient est de ne pas être capable de hiérarchiser les mot-clefs. Je tag les lieux et les personnes principales. Si je faisais plus de séries, j'utiliserai aussi les tag pour décrire le thème.</p> 
+<p>L'article m'a fait prendre conscience que je devrais plus utilisé les champs standard IPTC. Notamment pour le lieu.</p> 
+<p>Je configure Shotwell pour écrire les étiquettes dans les données IPTC des photos. Cela me permet de ne décrire les photos qu'une fois et que l'information soit partagées par tous les utilisateurs de la machine.</p> 
+<h2>Sauvegardes</h2> 
+<p>Je sauvegarde mes photos sur disque externe à l'aide de <a href="https://rsync.samba.org/">rsync</a>. Rustique mais assez efficace.</p></p>
+
+	<hr />
+	
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.6.1</a></p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/prettify.js"></script>
+    
+  </body>
+</html>

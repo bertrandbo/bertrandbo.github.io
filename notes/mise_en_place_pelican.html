@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Mise en place de Pelican</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/asciidoctor.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="../favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">bbo-log</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../feed.xml">S'abonner</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+	
+	<div class="page-header">
+		<h1>Mise en place de Pelican</h1>
+	</div>
+
+	<p><em>19 août 2014</em></p>
+
+	<p><p>Je souhaite utiliser <a href="http://www.getpelican.com/">Pelican</a> pour diffuser facilement mes notes et pense-bêtes.<br> L'idée est d'avoir quelque chose de léger et facilement versionnable.</p> 
+<h2>Prélude à l'installation</h2> 
+<p>La version de Python installée sur ma Debian stable correspond au minimum requis (2.7)</p> 
+<pre><code>:::console
+bertrand@pc-bbo:~$ ls -l /usr/bin/python
+lrwxrwxrwx 1 root root 9 sept. 28  2013 /usr/bin/python -&gt; python2.7
+</code></pre> 
+<p>Avant d'installer Pelican, il faut s'assurer d'avoir installé PIP et virtualenv</p> 
+<pre><code>:::console
+$ su -
+#&nbsp;apt-get install python-pip
+# pip install virtualenv
+</code></pre> 
+<p>L'installation via <code>PIP</code> doit se faire en <code>root</code> (ou avec <code>sudo</code>) sous peine d'avoir une erreur</p> 
+<pre><code>:::console
+`error: could not create '/usr/local/lib/python2.7/dist-packages/virtualenv_support': Permission denied`
+</code></pre> 
+<h2>Installation</h2> 
+<p>L'installation de Pelican proprement dite est bien expliquée sur la <a href="http://docs.getpelican.com/en/3.4.0/install.html">documentation officielle</a></p> 
+<p>Comme conseillé, j'installe Pelican (et Markdown) dans un environnement virtuel que je cache dans mon répertoire personnel :</p> 
+<pre><code>:::console
+bertrand@pc-bbo:~$ mkdir .virtualenv .virtualenv/pelican
+bertrand@pc-bbo:~$ cd .virtualenv/pelican
+bertrand@pc-bbo:~/.virtualenv/pelican$ virtualenv .
+New python executable in ./bin/python
+Installing setuptools, pip...done.
+bertrand@pc-bbo:~/.virtualenv/pelican$ ls
+bin  include  lib  local
+bertrand@pc-bbo:~/.virtualenv/pelican$ source bin/activate
+(pelican)bertrand@pc-bbo:~/.virtualenv/pelican$ pip install pelican markdown
+</code></pre> 
+<h2>Configuration</h2> 
+<p>Une configuration de base est générée grâce au script <code>pelican-quickstart</code>. Ce script génère deux fichiers de configuration :<br> - 1 pour le site en local (<code>pelicanconf.py</code>)<br> - 1 pour le site en ligne (<code>pelicanpublish.conf</code>)<br> Pour le reste, tout est dans la <a href="http://docs.getpelican.com/en/3.4.0">documentation très complète</a>.</p> 
+<p>Je voulais des URL simplifiée avec une arborescence de date. Par exemple, <code>http://www.bertrand-bousquet.info/articles/2014/08/13/mise-en-place-pelican</code>. C'est tout à fait possible grâce aux propriétés <code>ARTICLE_URL</code> et <code>ARTICLE_SAVE_AS</code>.</p> 
+<p>Il est aussi possible de faire des archives par année, par mois et même par jour, via les propriétés <code>YEAR_ARCHIVE_SAVE_AS</code>, <code>MONTH_ARCHIVE_SAVE_AS</code> et <code>DAY_ARCHIVE_SAVE_AS</code>. Mais je remets cela à plus tard.</p> 
+<p>Enfin, niveau thème, il faut cloner le <a href="https://github.com/getpelican/pelican-themes">dépôt git</a> et modifier la propriété <code>THEME</code> du fichier de configuration pour pointer vers le bon. C'est simple, rapide et pratique.</p> 
+<h2>&nbsp;Utilisation</h2> 
+<p>J'écris mes billets en <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. N'ayant pas besoin d'être plus précis, je ne renseigne la date qu'au jour près (Par exemple <code>Date: 2014-08-19</code>). Dans mon cas, renseigner l'heure et la minute me paraissait être de l'overkill. Cela fonctionne sans aucune configuration car Pelican supporte les formats de dates <a href="http://www.w3.org/TR/NOTE-datetime">suggérées par le W3C</a>.</p> 
+<p>On peut ajouter du code dans les billets via un bloc qui commence par <code>:::lexer</code>. . Visiblement, la coloration syntaxique n'implique pas de module supplémentaire (Pygments est suffisant). J'avoue ne pas avoir creusé cette partie pour le moment.</p> 
+<h2>&nbsp;Génération</h2> 
+<p>Pour générer le site, j'utilise Make plutôt que Fabric. En effet, Make faisant le boulot, je ne voyais pas pourquoi j'allais installer un autre module.</p> 
+<h2>Et après ?</h2> 
+<p>Sur le dépôt GitHub, l'équipe et les contributeurs de Pelican proposent toute une <a href="https://github.com/getpelican/pelican-plugins">série de plugins</a> très pratiques, comme par exemple :</p> 
+<ul> 
+ <li>Le plugin gallery couplé au plugin thumbnailer pour faire une belle galerie photo</li> 
+ <li>Le plugin pelican_comment_system pour gérer les commentaires statiquement et en Markdown.</li> 
+</ul></p>
+
+	<hr />
+	
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.6.1</a></p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/prettify.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Installer Mate sur Slackware</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/asciidoctor.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="../favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">bbo-log</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../feed.xml">S'abonner</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+	
+	<div class="page-header">
+		<h1>Installer Mate sur Slackware</h1>
+	</div>
+
+	<p><em>29 septembre 2014</em></p>
+
+	<p><p>Basé sur mon installation <a href="{filename}slackware.md">Slackware 14.1 + XFCE</a>, je souhaitais profiter de Mate. Une petite équipe de développeurs proposent <a href="http://mateslackbuilds.github.io/">un SlackBuild et une version compilée de Mate</a>. L'avantage de cette solution est qu'elle se base sur les packages disponibles dans l'installation de base. Contrairement à <a href="http://www.microlinux.fr/mled.php">MLED</a> qui, à une époque, <a href="http://linuxfr.org/news/mled-passe-de-xfce-a-mate">se basait sur Mate</a>. Mais certains paquets du système de base étaient recompilés par le mainteneur. Je trouve cela moins pratique.</p> 
+<h2>Installation</h2> 
+<p>J'avais installé <code>slackpkg</code> pour gérer les mises à jour de mon système plus facilement. Comme <code>slackpkg</code> ne gère qu'un seul dépôt, j'ai installé l'extension <a href="http://slakfinder.org/slackpkg+.html">slackpkg+</a> pour pouvoir gérer le multi-dépôts et ajouter celui de <a href="http://slackware.org.uk/msb/14.1/1.8/x86/">Mate</a>. En <code>root</code>, on installe Mate et ses extras :</p> 
+<pre><code>:::console
+# slackpkg upgrade gpg
+# slackpkg update
+# slackpkg install SLACKPKGPLUS_msb/base/*
+# slackpkg install SLACKPKGPLUS_msb/extra/*
+</code></pre> 
+<h2>Lancement</h2> 
+<p>Pour lancer Mate à la connexion, il faut éditer le fichier <code>.xinitrc</code> (lancé par SLiM lors de la connexion). Il faut remplacer les appels à <code>/usr/bin/startxfce4</code> par <code>/usr/bin/mate-session</code></p> 
+<p>Enfin, on peut paramétrer Mate comme environnement par défaut dans le fichier de configuration de SLiM, <code>/etc/slim.conf</code> :</p> 
+<pre><code>:::console
+sessions            mate-session,xfce4,icewm-session,wmaker,blackbox
+</code></pre> 
+<h2>Points d'attention</h2> 
+<p>Sur une slackware par défaut, Mate sera en anglais avec un clavier <code>qwerty</code>. Si l'anglais ne pose pas de problème, il est possible de juste changer la disposition du clavier en passant <em>Control Center &gt; Keyboard &gt; Layouts</em> (ajouter le clavier francais et supprimer le clavier américain).</p> 
+<p>Pour avoir la totale sans forcer, il suffit de <a href="{filename}slackware.md">franciser slackware</a>.</p></p>
+
+	<hr />
+	
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.6.1</a></p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/prettify.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://bertrandbo.github.io/billets/extensions-gnome.html</loc>
+        <lastmod>2016-12-11</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/billets/organisation-photo.html</loc>
+        <lastmod>2016-07-28</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/billets/je-roule-propre.html</loc>
+        <lastmod>2014-10-07</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/notes/slackware-mate.html</loc>
+        <lastmod>2014-09-29</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/notes/slackware-slim.html</loc>
+        <lastmod>2014-09-27</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/notes/slackware.html</loc>
+        <lastmod>2014-09-26</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/billets/categorie-vs-motclef.html</loc>
+        <lastmod>2014-09-11</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/notes/desactiver_touchpad_mate.html</loc>
+        <lastmod>2014-09-03</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/notes/installation_debian_mate.html</loc>
+        <lastmod>2014-09-01</lastmod>
+    </url>
+    <url>
+        <loc>https://bertrandbo.github.io/notes/mise_en_place_pelican.html</loc>
+        <lastmod>2014-08-19</lastmod>
+    </url>
+</urlset>

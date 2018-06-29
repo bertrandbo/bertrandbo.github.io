@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Installer Mate sur Debian</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/asciidoctor.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="../favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../index.html">bbo-log</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../feed.xml">S'abonner</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+	
+	<div class="page-header">
+		<h1>Installer Mate sur Debian</h1>
+	</div>
+
+	<p><em>01 septembre 2014</em></p>
+
+	<p><p>L'idée est d'installer un petit environnement de travail sans prétention sur une machine assez ancienne et peu puissante (mono-coeur 1.8 GHz et 512 Mo de RAM).<br> Je me suis arrêté sur le bureau <a href="http://mate-desktop.org/">Mate</a> et la distribution <a href="https://www.debian.org/index.fr.html">Debian</a>.</p> 
+<h2>&nbsp;Installation de Debian</h2> 
+<p>A partir de l'<a href="https://www.debian.org/CD/netinst/">ISO d'installation réseau</a>, je réalise une installation minimale de Debian 7.6 <em>i.e.</em> j'enlève tout sauf les utilitaires systèmes. Je crée mes 3 partitions <code>/</code>, <code>/home</code> et <code>swap</code>. N'étant pas fan du <code>sudo</code>, je crée mon <code>root</code>.</p> 
+<p>L'installateur semi-graphique est vraiment bien fait et très facile à utiliser. L'installation se passe sans problèmes. J'ai configuré le miroir de l'<a href="http://ftp.u-picardie.fr">université de Picardie</a> qui s'avère être très réactif.</p> 
+<h3>&nbsp;Activation des dépôts</h3> 
+<p>Mate est désormais disponible dans les <code>backport</code> de Debian. Ainsi, les <a href="http://backports.debian.org/Instructions/">instructions</a> nous disent qu'il suffit d'ajouter le dépôt dans ses sources . A l'aide de <code>nano</code> en <code>root</code>, j'ajoute dans <code>/etc/apt/sources.list</code> la ligne <code>deb http://http.debian.net/debian wheezy-backports main</code></p> 
+<h3>Installation</h3> 
+<p>Après sauvegarde, mettre à jour la liste des paquets, puis installer :</p> 
+<ul> 
+ <li>le système de fenêtrage X Window et sa documentation (ca peut toujours servir et ca coute pas plus cher),</li> 
+ <li>le gestionnaire d'affichage (<em>Display Manager</em> en anglais) ; je suis les conseils des forums en partant sur LightDM et non pas sur SliM (utilisé par CrunchBang notamment)</li> 
+ <li>le bureau Mate avec les extras et PulseAudio plutôt que GStreamer</li> 
+</ul> 
+<p>Ce qui nous donne :</p> 
+<pre><code>:::console
+#&nbsp;apt-get update
+#&nbsp;apt-get install xorg xorg-docs
+# apt-get install ligthdm accountsservice upower
+# apt-get install mate-desktop-environment-extra mate-media-pulse
+</code></pre> 
+<p>Pas besoin de passer des options particulières à <code>APT</code> car je souhaite l'installation des paquets recommandés par les mainteneurs Debian et leurs paquets suggérés ne m'intéressent pas, sauf dans le cas de LightDM où les paquets suggérés me paraissaient intéressants (<code>accountsservice</code> et <code>upower</code>). Mais l'option <code>--install-suggests</code> de <code>APT</code> étant récursive, on se retrouve avec des dizaines de paquets à installer... Donc, il faut installer les paquets recommandés à la main.</p> 
+<p>On finit par un redémarrage de la machine :</p> 
+<pre><code>:::console
+# shutdown -r now
+</code></pre> 
+<h3>&nbsp;Configuration de Mate</h3> 
+<p>Le comportement par défaut de Mate me convient. Je ne configure que deux choses :</p> 
+<ul> 
+ <li>Le magnetisme des fenêtres (<em>Centre de contrôle &gt; Fenêtres &gt; Placement &gt; Activer la mosaique côte à côte</em>) : cela redimensionne la fenêtre pour prendre la moitié de l'écran quand on glisse la fenêtre contre le bord de l'écran</li> 
+ <li>Le simple clic pour ouvrir les éléménts (<em>Centre de contrôle &gt; Gestion de fichiers &gt; Comportement</em>)</li> 
+</ul> 
+<p>Si ma machine avait été plus puissante, j'aurai également activé la composition pour le gestionnaire de fenêtre (<em>Centre de contrôle &gt; Fenêtres &gt; Général</em>) car c'est quand même plus joli.</p> 
+<h2>Logiciels</h2> 
+<p>J'installe ensuite les logiciels qu'il me manque :</p> 
+<ul> 
+ <li>Firefox (qui s'appelle IceWeasel chez Debian) comme navigateur web</li> 
+ <li>Exaile comme lecteur de musique (avec l'icone de controle dans la zone de notification) :</li> 
+ <li>Totem et MPlayer (juste au cas où) comme lecteurs de vidéos et de DVD</li> 
+ <li>gFTP comme client FTP</li> 
+ <li>Brasero comme logiciel de gravure</li> 
+ <li>LibreOffice (avec l'aide en francais) pour la bureautique</li> 
+</ul> 
+<p>L'installation en console se passe comme suit :</p> 
+<pre><code>:::console
+#&nbsp;apt-get install iceweasel exaile python-eggtrayicon totem gnome-player gftp brasero
+# apt-get install libreoffice-{write, calc, impress} libreoffice-help-fr
+</code></pre> 
+<h3>&nbsp;Codecs multimédia</h3> 
+<p>Jusqu'à présent, le système restait libre (je n'ai pas activé les dépôts <code>non-free</code> et <code>contrib</code>). Mais plusieurs de mes fichiers vidéos et mes DVD n'étaient pas lisibles par le système. J'ai donc activé les <a href="https://wiki.debian.org/fr/MultimediaCodecs">dépôts multimédia de Debian</a>.</p> 
+<p>En suivant la doc, j'ai juste installé</p> 
+<pre><code>:::console
+#&nbsp;apt-get install libdvdcss2 w32codecs
+</code></pre> 
+<p>J'ajouterai juste que l'installation de la clef en ligne de commande se fait comme suit</p> 
+<pre><code>:::console
+# wget http://deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2012.05.10-dmo4_all.deb 
+#&nbsp;dpkg -i deb-multimedia-keyring_2012.05.10-dmo4_all.deb
+</code></pre> 
+<h3>Nettoyage</h3> 
+<p>Je finis par un nettoyage des paquets téléchargés</p> 
+<pre><code>:::console
+#&nbsp;apt-get autoclean
+</code></pre></p>
+
+	<hr />
+	
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2014 | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.1.1</a> | Baked with <a href="http://jbake.org">JBake v2.6.1</a></p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/prettify.js"></script>
+    
+  </body>
+</html>

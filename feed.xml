@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JBake</title>
+    <link>https://bertrandbo.github.io</link>
+    <atom:link href="https://bertrandbo.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <description>JBake Bootstrap Template</description>
+    <language>en-gb</language>
+    <pubDate>ven., 29 juin 2018 13:43:32 +0200</pubDate>
+    <lastBuildDate>ven., 29 juin 2018 13:43:32 +0200</lastBuildDate>
+
+    <item>
+      <title>Mes extensions GNOME</title>
+      <link>https://bertrandbo.github.io/billets/extensions-gnome.html</link>
+      <pubDate>dim., 11 déc. 2016 00:00:00 +0100</pubDate>
+      <guid isPermaLink="false">billets/extensions-gnome.html</guid>
+      	<description>
+	&lt;p&gt;Utilisateur régulier de Gnome Shell depuis plusieurs mois, voici la liste des extensions que j&apos;utilise&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/701/top-panel-workspace-scroll/&quot;&gt;Top panel workspace scroll&lt;/a&gt;&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/792/shutdowntimer/&quot;&gt;Shutdown Timer&lt;/a&gt;&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/427/workspaces-to-dock/&quot;&gt;Workspaces to dock&lt;/a&gt;&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/307/dash-to-dock/&quot;&gt;Dash to dock&lt;/a&gt;&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/517/caffeine/&quot;&gt;Caffeine&lt;/a&gt; : pour couper la gestion d&apos;énergie et éviter que la machine se mette en veille.&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/543/backslide/&quot;&gt;Backslide&lt;/a&gt; :&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/358/activities-configurator/&quot;&gt;Activites configurator&lt;/a&gt; qui me permet de rendre le Top panel transparent. Voir aussi &lt;a href=&quot;https://extensions.gnome.org/extension/1011/dynamic-panel-transparency/&quot;&gt;Dynamic panel transparency&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;En complément, j&apos;utilise aussi des extensions présentes dans les &lt;a href=&quot;https://apps.fedoraproject.org/packages/gnome-shell-extensions&quot;&gt;dépôts Fedora&lt;/a&gt; :&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/15/alternatetab/&quot;&gt;Alternate tab&lt;/a&gt;&lt;br&gt; - &lt;a href=&quot;https://extensions.gnome.org/extension/19/user-themes/&quot;&gt;User Theme&lt;/a&gt;&lt;/p&gt; 
+&lt;h2&gt;Thèmes&lt;/h2&gt; 
+&lt;p&gt;Icones : Moka ou Elementary&lt;br&gt; GTK : Arc&lt;br&gt; Shell : Adwaita&lt;br&gt; Curseur : Breeze&lt;/p&gt; 
+&lt;p&gt;Libreoffice : Breeze&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Gestion de ma phototèque</title>
+      <link>https://bertrandbo.github.io/billets/organisation-photo.html</link>
+      <pubDate>jeu., 28 juil. 2016 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">billets/organisation-photo.html</guid>
+      	<description>
+	&lt;p&gt;&lt;em&gt;Note : article commencé cet été mais jamais publié car jamais considéré comme terminé. Est-il plus terminé maintenant, je ne sais pas. Mais au moins il est publié...&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;Dans le &lt;a href=&quot;http://www.competencephoto.com/Competence-Photo-Numero-53-en-kiosque-le-30-juin-2016_a2817.html&quot;&gt;dernier numéro de Compétence Photo&lt;/a&gt;, un article traite du catalogage de ses photos.&lt;/p&gt; 
+&lt;p&gt;Je saisi la balle au bond pour partager ma manière de faire. Je précise que 95% de mes photos sont de la photo de famille/photo souvenir et que je shoote en JPEG.&lt;/p&gt; 
+&lt;h2&gt;Stratégie&lt;/h2&gt; 
+&lt;p&gt;Je range mes photos à deux endroits :&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Dans le répertoire Images de mon compte pour les photos personnelles, de sorties, d&apos;essais, etc. Au risque d&apos;enfoncer une porte ouverte, ce répertoire n&apos;est accessible que par moi.&lt;/li&gt; 
+ &lt;li&gt;Dans un répertoire partagé pour les photos familiales/communes. Il est accessible par tous les utilisateurs de l&apos;ordinateur&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;L&apos;avantage d&apos;avoir deux endroits permet à chaque utilisateur de conserver son espace privé tout en évitant la duplication des photos communes.&lt;/p&gt; 
+&lt;h2&gt;Logiciel&lt;/h2&gt; 
+&lt;p&gt;Je suis un utilisateur de &lt;a href=&quot;https://wiki.gnome.org/Apps/Shotwell&quot;&gt;Shotwell&lt;/a&gt;. Il me permet d&apos;importer les photos dans mon répertoire personnel ou dans le répertoire partagé en fonction de la série.&lt;/p&gt; 
+&lt;h2&gt;Arborescence&lt;/h2&gt; 
+&lt;p&gt;Comme l&apos;auteur de l&apos;article, j&apos;ai choisi une arborescence par date et non par thème. Après avoir essayé il y a quelques années une arborescence à 2 niveaux &lt;em&gt;année-mois/jour&lt;/em&gt;, le volume important de dossiers m&apos;a fait passé il y a plusieurs mois sur une arborescence à 3 niveaux &lt;em&gt;année/mois/jour&lt;/em&gt;.&lt;/p&gt; 
+&lt;p&gt;Pour illustrer mon arborescence, une photo du 27 juillet 2016 sera placée dans le dossier &lt;em&gt;2016/07-juillet/2016-07-27&lt;/em&gt;.&lt;/p&gt; 
+&lt;p&gt;Quelques précisions :&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;J&apos;aime bien voir le mois écrit de toute lettre (un TOC peut-être ?). Je préfixe avec le numéro pour que les mois soient correctement classés dans mon navigateur de fichier&lt;/li&gt; 
+ &lt;li&gt;Le dossier du jour contient aussi l&apos;année et le mois car cela facilite l&apos;export du dossier, sur clef USB par exemple (cela évite de se retrouver avec un 27.zip sur la clef).&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;h2&gt;Renommage&lt;/h2&gt; 
+&lt;p&gt;Contrairement à l&apos;auteur, je ne renomme pas mes dossiers importés pour ajouter l&apos;évènement. Pourtant, je pense que ca serait pratique d&apos;avoir l&apos;info à ce niveau là.&lt;/p&gt; 
+&lt;p&gt;Je ne renomme pas non plus les photos. Elles conservent le nom donné par l&apos;appareil. Comme j&apos;importe souvent plusieurs évènements d&apos;un coup, cela me permet juste de laisser le logiciel faire automatiquement le rangement.&lt;/p&gt; 
+&lt;p&gt;Il faudrait cependant que je vérifie si Shotwell a une fonction de renommage de masse.&lt;/p&gt; 
+&lt;h2&gt;Etiquettes&lt;/h2&gt; 
+&lt;p&gt;Shotwell possède une fonctionnalité &quot;basique&quot; d&apos;étiquettage des photos. Son seul inconvénient est de ne pas être capable de hiérarchiser les mot-clefs. Je tag les lieux et les personnes principales. Si je faisais plus de séries, j&apos;utiliserai aussi les tag pour décrire le thème.&lt;/p&gt; 
+&lt;p&gt;L&apos;article m&apos;a fait prendre conscience que je devrais plus utilisé les champs standard IPTC. Notamment pour le lieu.&lt;/p&gt; 
+&lt;p&gt;Je configure Shotwell pour écrire les étiquettes dans les données IPTC des photos. Cela me permet de ne décrire les photos qu&apos;une fois et que l&apos;information soit partagées par tous les utilisateurs de la machine.&lt;/p&gt; 
+&lt;h2&gt;Sauvegardes&lt;/h2&gt; 
+&lt;p&gt;Je sauvegarde mes photos sur disque externe à l&apos;aide de &lt;a href=&quot;https://rsync.samba.org/&quot;&gt;rsync&lt;/a&gt;. Rustique mais assez efficace.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Je roule 100% propre</title>
+      <link>https://bertrandbo.github.io/billets/je-roule-propre.html</link>
+      <pubDate>mar., 7 oct. 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">billets/je-roule-propre.html</guid>
+      	<description>
+	&lt;p&gt;Dernièrement en ville, j&apos;ai pu voir une voiture électrique arborer fièrement cette phrase :&lt;/p&gt; 
+&lt;blockquote&gt; 
+ &lt;p&gt;Je roule 100% propre.&lt;/p&gt; 
+&lt;/blockquote&gt; 
+&lt;p&gt;Bien que n&apos;ayant jamais conduit ce type de voiture, je dois admettre qu&apos;en tant que piéton, c&apos;est une bonne voiture. Elle ne fait pas de bruit et elle ne sent pas. Parfait pourrait-on dire.&lt;/p&gt; 
+&lt;p&gt;Derrière cette phrase, il y a un problème : la pollution. Avec cette phrase, on propose une solution au problème. On tente d&apos;imposer le modèle de la voiture électrique et, en passant, on donne bonne conscience aux consommateurs.&lt;/p&gt; 
+&lt;p&gt;Cependant, est-ce vraiment 100% propre ?&lt;/p&gt; 
+&lt;p&gt;Par exemple, comment est produite l&apos;électricité qui permet de recharger les batteries ? Plus généralement, il faut aussi de l&apos;énergie et des matériaux pour fabriquer et recycler la voiture. Et, sauf erreur de ma part, ces deux phases ne sont pas 100% propres.&lt;/p&gt; 
+&lt;p&gt;&quot;Rouler 100% propre&quot;, c&apos;est bien en théorie mais impossible en pratique. Je trouve donc que cette argument masque la vérité et empêche les consommateurs de prendre conscience de leur impact environnemental.&lt;/p&gt; 
+&lt;p&gt;Peut-être que la voiture électrique est réellement &quot;plus propre&quot; que la voiture thermique que nous connaissons. Mais pour éviter l&apos;&lt;a href=&quot;http://www.alternatives-economiques.fr/l-effet-rebond-nbsp-quand-l-efficac_fr_art_1204_63190.html&quot;&gt;effet rebond&lt;/a&gt;, il faudrait sensibiliser les consommateurs à leur impact et, surtout, leur donner les moyens de s&apos;informer de manière fiable.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Installer Mate sur Slackware</title>
+      <link>https://bertrandbo.github.io/notes/slackware-mate.html</link>
+      <pubDate>lun., 29 sept. 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">notes/slackware-mate.html</guid>
+      	<description>
+	&lt;p&gt;Basé sur mon installation &lt;a href=&quot;{filename}slackware.md&quot;&gt;Slackware 14.1 + XFCE&lt;/a&gt;, je souhaitais profiter de Mate. Une petite équipe de développeurs proposent &lt;a href=&quot;http://mateslackbuilds.github.io/&quot;&gt;un SlackBuild et une version compilée de Mate&lt;/a&gt;. L&apos;avantage de cette solution est qu&apos;elle se base sur les packages disponibles dans l&apos;installation de base. Contrairement à &lt;a href=&quot;http://www.microlinux.fr/mled.php&quot;&gt;MLED&lt;/a&gt; qui, à une époque, &lt;a href=&quot;http://linuxfr.org/news/mled-passe-de-xfce-a-mate&quot;&gt;se basait sur Mate&lt;/a&gt;. Mais certains paquets du système de base étaient recompilés par le mainteneur. Je trouve cela moins pratique.&lt;/p&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;J&apos;avais installé &lt;code&gt;slackpkg&lt;/code&gt; pour gérer les mises à jour de mon système plus facilement. Comme &lt;code&gt;slackpkg&lt;/code&gt; ne gère qu&apos;un seul dépôt, j&apos;ai installé l&apos;extension &lt;a href=&quot;http://slakfinder.org/slackpkg+.html&quot;&gt;slackpkg+&lt;/a&gt; pour pouvoir gérer le multi-dépôts et ajouter celui de &lt;a href=&quot;http://slackware.org.uk/msb/14.1/1.8/x86/&quot;&gt;Mate&lt;/a&gt;. En &lt;code&gt;root&lt;/code&gt;, on installe Mate et ses extras :&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+# slackpkg upgrade gpg
+# slackpkg update
+# slackpkg install SLACKPKGPLUS_msb/base/*
+# slackpkg install SLACKPKGPLUS_msb/extra/*
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Lancement&lt;/h2&gt; 
+&lt;p&gt;Pour lancer Mate à la connexion, il faut éditer le fichier &lt;code&gt;.xinitrc&lt;/code&gt; (lancé par SLiM lors de la connexion). Il faut remplacer les appels à &lt;code&gt;/usr/bin/startxfce4&lt;/code&gt; par &lt;code&gt;/usr/bin/mate-session&lt;/code&gt;&lt;/p&gt; 
+&lt;p&gt;Enfin, on peut paramétrer Mate comme environnement par défaut dans le fichier de configuration de SLiM, &lt;code&gt;/etc/slim.conf&lt;/code&gt; :&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+sessions            mate-session,xfce4,icewm-session,wmaker,blackbox
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Points d&apos;attention&lt;/h2&gt; 
+&lt;p&gt;Sur une slackware par défaut, Mate sera en anglais avec un clavier &lt;code&gt;qwerty&lt;/code&gt;. Si l&apos;anglais ne pose pas de problème, il est possible de juste changer la disposition du clavier en passant &lt;em&gt;Control Center &amp;gt; Keyboard &amp;gt; Layouts&lt;/em&gt; (ajouter le clavier francais et supprimer le clavier américain).&lt;/p&gt; 
+&lt;p&gt;Pour avoir la totale sans forcer, il suffit de &lt;a href=&quot;{filename}slackware.md&quot;&gt;franciser slackware&lt;/a&gt;.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Installer SLiM sur Slackware</title>
+      <link>https://bertrandbo.github.io/notes/slackware-slim.html</link>
+      <pubDate>sam., 27 sept. 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">notes/slackware-slim.html</guid>
+      	<description>
+	&lt;p&gt;Pour remplacer XDM, j&apos;ai choisi SLiM (utilisé notamment, par &lt;a href=&quot;http://crunchbang.org/&quot;&gt;Crunchbang&lt;/a&gt;). La &lt;a href=&quot;http://wiki.slackware-fr.org/xwindow:articles:slim&quot;&gt;documentation francophone de slackware&lt;/a&gt; couvre l&apos;essentiel pour installer et configurer SLiM.&lt;/p&gt; 
+&lt;p&gt;Je n&apos;ai juste pas fait l&apos;installation à la main comme indiqué dans la documentation (i.e. &lt;code&gt;make install&lt;/code&gt;). J&apos;ai préféré utiliser le &lt;a href=&quot;http://slackbuilds.org/repository/14.1/system/slim/&quot;&gt;SlackBuild disponible pour ma version&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;J&apos;utilise le &lt;a href=&quot;http://ngc891.blogdns.net/?p=74&quot;&gt;thème SLiM de ngc891&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;Points d&apos;attention&lt;/h2&gt; 
+&lt;p&gt;Par défaut, slackware est configuré en clavier &lt;code&gt;us&lt;/code&gt;. SLiM sera donc en &lt;code&gt;qwerty&lt;/code&gt;. Il faut penser à changer la &lt;a href=&quot;http://docs.slackware.com/howtos:window_managers:keyboard_layout#keyboard_layout_in_x&quot;&gt;disposition du clavier par défaut du système&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Lors du login, obtenir le message &lt;code&gt;failed to execute login command&lt;/code&gt; signifie que le fichier &lt;code&gt;.xinitrc&lt;/code&gt; n&apos;existe pas dans le répertoire utilisateur. Dans ce cas, copier celui du compte &lt;code&gt;root&lt;/code&gt;.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Installer Slackware</title>
+      <link>https://bertrandbo.github.io/notes/slackware.html</link>
+      <pubDate>ven., 26 sept. 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">notes/slackware.html</guid>
+      	<description>
+	&lt;p&gt;Contrairement à ce que j&apos;imaginais, Slackware s&apos;installe très facilement. Il faut juste prendre le temps de lire ce que l&apos;installateur dit et... lire la doc !&lt;/p&gt; 
+&lt;p&gt;Je n&apos;ai pas installé les packages contenus dans &lt;code&gt;kde/&lt;/code&gt; et &lt;code&gt;kdei/&lt;/code&gt;. J&apos;ai installé tout le reste. J&apos;obtiens donc une slackware 14.1 avec XFCE. Le gestionnaire d&apos;affichage par défaut est &lt;a href=&quot;http://fr.wikipedia.org/wiki/X_Window_Display_Manager&quot;&gt;XDM&lt;/a&gt;. Pour être honnête, j&apos;ai trouvé ca moche. Il faudra le changer.&lt;/p&gt; 
+&lt;p&gt;Pour arriver à mon système actuel, j&apos;ai utilisé tout ou partie des pages de documentation suivantes :&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;la &lt;a href=&quot;http://wiki.slackware-fr.org/installation:articles:faq_francophone&quot;&gt;FAQ francophone&lt;/a&gt;.&lt;/li&gt; 
+ &lt;li&gt;la &lt;a href=&quot;http://docs.slackware.com/slackware:install&quot;&gt;documentation d&apos;installation officielle&lt;/a&gt; ;&lt;/li&gt; 
+ &lt;li&gt;la &lt;a href=&quot;http://wiki.slackware-fr.org/installation:articles:post_installation&quot;&gt;documentation de post-installation francophone&lt;/a&gt;, sauf pour la partie mise à jour du système que je fais avec &lt;a href=&quot;http://docs.slackware.com/slackware:slackpkg&quot;&gt;slackpkg&lt;/a&gt; ;&lt;/li&gt; 
+ &lt;li&gt;la &lt;a href=&quot;http://wiki.slackware-fr.org/installation:articles:francisation&quot;&gt;documentation pour franciser slackware&lt;/a&gt;, sauf pour la disposition du clavier où j&apos;ai utilisé la &lt;a href=&quot;http://docs.slackware.com/howtos:window_managers:keyboard_layout&quot;&gt;doc officielle&lt;/a&gt;, plus à jour ;&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Suite à pas mal de problème de connexion avec le mirroir OVH, j&apos;ai configuré le mirroir de l&apos;université de Berlin pour &lt;code&gt;slackpgk&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;Deux liens à garder en référence :&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;La &lt;a href=&quot;http://docs.slackware.com/&quot;&gt;documentation officielle&lt;/a&gt;.&lt;/li&gt; 
+ &lt;li&gt;Le &lt;a href=&quot;http://wiki.slackware-fr.org/&quot;&gt;wiki de la communauté française&lt;/a&gt;.&lt;/li&gt; 
+&lt;/ul&gt;
+	</description>
+    </item>
+    <item>
+      <title>Catégorie vs Mot-clef</title>
+      <link>https://bertrandbo.github.io/billets/categorie-vs-motclef.html</link>
+      <pubDate>jeu., 11 sept. 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">billets/categorie-vs-motclef.html</guid>
+      	<description>
+	&lt;p&gt;En terme d&apos;organisation de contenu, j&apos;avoue ne pas encore avoir compris la réelle différence entre les catégories et les mots-clefs. Les mots-clefs seraient utilisés pour décrire plus précisement le billet contenu dans une catégorie.&lt;/p&gt; 
+&lt;p&gt;Soit. Mais on arrive toujours dans la situation où le billet peut se retrouver dans deux catégories différentes.&lt;/p&gt; 
+&lt;blockquote&gt; 
+ &lt;p&gt;Le déploiement sous Linux de mon petit logiciel développé en Java, je le mets dans &quot;Développement&quot; ou dans &quot;Système&quot; ?&lt;/p&gt; 
+&lt;/blockquote&gt; 
+&lt;p&gt;Une solution est alors de pouvoir assigner plusieurs catégories au billet (il me semble que c&apos;est ce que propose Wordpress).&lt;/p&gt; 
+&lt;p&gt;Mais, à partir de là, je trouve que la frontière catégorie/mot-clef devient vraiment floue. En effet, quand 90% des articles d&apos;une catégorie ont le même mot-clef, ne faut-il pas avoir une catégorie dédiée ? Mais dans ce cas, est-il utile de conserver la catégorie qui serait quasiment vide ? On pourrait alors avoir une catégorie &quot;Divers&quot; ou &quot;Misc&quot;. Mais n&apos;y aurait-il pas le risque de tout mettre dedans ?&lt;/p&gt; 
+&lt;p&gt;Tout cela pour dire que les deux notions se retrouvent, bien évidemment, dans Pelican et je me pose donc la question de l&apos;organisation de mon contenu. En partant du principe que la catégorie décrit le sujet de manière assez large et englobante, la définition des catégories reste une question compliquée. Pour avoir des catégories claires, il faut avoir une ligne éditoriale claire. Ce qui n&apos;est pas mon cas (pas encore du moins).&lt;/p&gt; 
+&lt;p&gt;Donc, j&apos;ai décidé d&apos;utiliser les catégories pour décrire le type de contenu (article, galerie photos, lien, vidéo...) et les mots-clefs pour l&apos;organisation en sujets.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Désactiver le pavé tactile sur Mate</title>
+      <link>https://bertrandbo.github.io/notes/desactiver_touchpad_mate.html</link>
+      <pubDate>mer., 3 sept. 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">notes/desactiver_touchpad_mate.html</guid>
+      	<description>
+	&lt;p&gt;Depuis les préférences de Mate (Souris &amp;gt; Pavé tactile), il est seulement possible de le désactiver pendant la frappe. Pour le désactiver complètement, cela peut se faire pour la session utilisateur courante à l&apos;aide d&apos;une propriété &lt;code&gt;dconf&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;Ouvrir &lt;code&gt;dconf-editor&lt;/code&gt; puis déplier l&apos;arbre jusqu&apos;à &lt;code&gt;org.mate.desktop.peripherals.touchpad&lt;/code&gt;. Décocher &lt;code&gt;touchpad.enabled&lt;/code&gt;. Le changement est pris en compte immédiatement.&lt;/p&gt;
+	</description>
+    </item>
+    <item>
+      <title>Installer Mate sur Debian</title>
+      <link>https://bertrandbo.github.io/notes/installation_debian_mate.html</link>
+      <pubDate>lun., 1 sept. 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">notes/installation_debian_mate.html</guid>
+      	<description>
+	&lt;p&gt;L&apos;idée est d&apos;installer un petit environnement de travail sans prétention sur une machine assez ancienne et peu puissante (mono-coeur 1.8 GHz et 512 Mo de RAM).&lt;br&gt; Je me suis arrêté sur le bureau &lt;a href=&quot;http://mate-desktop.org/&quot;&gt;Mate&lt;/a&gt; et la distribution &lt;a href=&quot;https://www.debian.org/index.fr.html&quot;&gt;Debian&lt;/a&gt;.&lt;/p&gt; 
+&lt;h2&gt;&amp;nbsp;Installation de Debian&lt;/h2&gt; 
+&lt;p&gt;A partir de l&apos;&lt;a href=&quot;https://www.debian.org/CD/netinst/&quot;&gt;ISO d&apos;installation réseau&lt;/a&gt;, je réalise une installation minimale de Debian 7.6 &lt;em&gt;i.e.&lt;/em&gt; j&apos;enlève tout sauf les utilitaires systèmes. Je crée mes 3 partitions &lt;code&gt;/&lt;/code&gt;, &lt;code&gt;/home&lt;/code&gt; et &lt;code&gt;swap&lt;/code&gt;. N&apos;étant pas fan du &lt;code&gt;sudo&lt;/code&gt;, je crée mon &lt;code&gt;root&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;L&apos;installateur semi-graphique est vraiment bien fait et très facile à utiliser. L&apos;installation se passe sans problèmes. J&apos;ai configuré le miroir de l&apos;&lt;a href=&quot;http://ftp.u-picardie.fr&quot;&gt;université de Picardie&lt;/a&gt; qui s&apos;avère être très réactif.&lt;/p&gt; 
+&lt;h3&gt;&amp;nbsp;Activation des dépôts&lt;/h3&gt; 
+&lt;p&gt;Mate est désormais disponible dans les &lt;code&gt;backport&lt;/code&gt; de Debian. Ainsi, les &lt;a href=&quot;http://backports.debian.org/Instructions/&quot;&gt;instructions&lt;/a&gt; nous disent qu&apos;il suffit d&apos;ajouter le dépôt dans ses sources . A l&apos;aide de &lt;code&gt;nano&lt;/code&gt; en &lt;code&gt;root&lt;/code&gt;, j&apos;ajoute dans &lt;code&gt;/etc/apt/sources.list&lt;/code&gt; la ligne &lt;code&gt;deb http://http.debian.net/debian wheezy-backports main&lt;/code&gt;&lt;/p&gt; 
+&lt;h3&gt;Installation&lt;/h3&gt; 
+&lt;p&gt;Après sauvegarde, mettre à jour la liste des paquets, puis installer :&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;le système de fenêtrage X Window et sa documentation (ca peut toujours servir et ca coute pas plus cher),&lt;/li&gt; 
+ &lt;li&gt;le gestionnaire d&apos;affichage (&lt;em&gt;Display Manager&lt;/em&gt; en anglais) ; je suis les conseils des forums en partant sur LightDM et non pas sur SliM (utilisé par CrunchBang notamment)&lt;/li&gt; 
+ &lt;li&gt;le bureau Mate avec les extras et PulseAudio plutôt que GStreamer&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Ce qui nous donne :&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+#&amp;nbsp;apt-get update
+#&amp;nbsp;apt-get install xorg xorg-docs
+# apt-get install ligthdm accountsservice upower
+# apt-get install mate-desktop-environment-extra mate-media-pulse
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Pas besoin de passer des options particulières à &lt;code&gt;APT&lt;/code&gt; car je souhaite l&apos;installation des paquets recommandés par les mainteneurs Debian et leurs paquets suggérés ne m&apos;intéressent pas, sauf dans le cas de LightDM où les paquets suggérés me paraissaient intéressants (&lt;code&gt;accountsservice&lt;/code&gt; et &lt;code&gt;upower&lt;/code&gt;). Mais l&apos;option &lt;code&gt;--install-suggests&lt;/code&gt; de &lt;code&gt;APT&lt;/code&gt; étant récursive, on se retrouve avec des dizaines de paquets à installer... Donc, il faut installer les paquets recommandés à la main.&lt;/p&gt; 
+&lt;p&gt;On finit par un redémarrage de la machine :&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+# shutdown -r now
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;&amp;nbsp;Configuration de Mate&lt;/h3&gt; 
+&lt;p&gt;Le comportement par défaut de Mate me convient. Je ne configure que deux choses :&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Le magnetisme des fenêtres (&lt;em&gt;Centre de contrôle &amp;gt; Fenêtres &amp;gt; Placement &amp;gt; Activer la mosaique côte à côte&lt;/em&gt;) : cela redimensionne la fenêtre pour prendre la moitié de l&apos;écran quand on glisse la fenêtre contre le bord de l&apos;écran&lt;/li&gt; 
+ &lt;li&gt;Le simple clic pour ouvrir les éléménts (&lt;em&gt;Centre de contrôle &amp;gt; Gestion de fichiers &amp;gt; Comportement&lt;/em&gt;)&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;Si ma machine avait été plus puissante, j&apos;aurai également activé la composition pour le gestionnaire de fenêtre (&lt;em&gt;Centre de contrôle &amp;gt; Fenêtres &amp;gt; Général&lt;/em&gt;) car c&apos;est quand même plus joli.&lt;/p&gt; 
+&lt;h2&gt;Logiciels&lt;/h2&gt; 
+&lt;p&gt;J&apos;installe ensuite les logiciels qu&apos;il me manque :&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Firefox (qui s&apos;appelle IceWeasel chez Debian) comme navigateur web&lt;/li&gt; 
+ &lt;li&gt;Exaile comme lecteur de musique (avec l&apos;icone de controle dans la zone de notification) :&lt;/li&gt; 
+ &lt;li&gt;Totem et MPlayer (juste au cas où) comme lecteurs de vidéos et de DVD&lt;/li&gt; 
+ &lt;li&gt;gFTP comme client FTP&lt;/li&gt; 
+ &lt;li&gt;Brasero comme logiciel de gravure&lt;/li&gt; 
+ &lt;li&gt;LibreOffice (avec l&apos;aide en francais) pour la bureautique&lt;/li&gt; 
+&lt;/ul&gt; 
+&lt;p&gt;L&apos;installation en console se passe comme suit :&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+#&amp;nbsp;apt-get install iceweasel exaile python-eggtrayicon totem gnome-player gftp brasero
+# apt-get install libreoffice-{write, calc, impress} libreoffice-help-fr
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;&amp;nbsp;Codecs multimédia&lt;/h3&gt; 
+&lt;p&gt;Jusqu&apos;à présent, le système restait libre (je n&apos;ai pas activé les dépôts &lt;code&gt;non-free&lt;/code&gt; et &lt;code&gt;contrib&lt;/code&gt;). Mais plusieurs de mes fichiers vidéos et mes DVD n&apos;étaient pas lisibles par le système. J&apos;ai donc activé les &lt;a href=&quot;https://wiki.debian.org/fr/MultimediaCodecs&quot;&gt;dépôts multimédia de Debian&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;En suivant la doc, j&apos;ai juste installé&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+#&amp;nbsp;apt-get install libdvdcss2 w32codecs
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;J&apos;ajouterai juste que l&apos;installation de la clef en ligne de commande se fait comme suit&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+# wget http://deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2012.05.10-dmo4_all.deb 
+#&amp;nbsp;dpkg -i deb-multimedia-keyring_2012.05.10-dmo4_all.deb
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h3&gt;Nettoyage&lt;/h3&gt; 
+&lt;p&gt;Je finis par un nettoyage des paquets téléchargés&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+#&amp;nbsp;apt-get autoclean
+&lt;/code&gt;&lt;/pre&gt;
+	</description>
+    </item>
+    <item>
+      <title>Mise en place de Pelican</title>
+      <link>https://bertrandbo.github.io/notes/mise_en_place_pelican.html</link>
+      <pubDate>mar., 19 août 2014 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">notes/mise_en_place_pelican.html</guid>
+      	<description>
+	&lt;p&gt;Je souhaite utiliser &lt;a href=&quot;http://www.getpelican.com/&quot;&gt;Pelican&lt;/a&gt; pour diffuser facilement mes notes et pense-bêtes.&lt;br&gt; L&apos;idée est d&apos;avoir quelque chose de léger et facilement versionnable.&lt;/p&gt; 
+&lt;h2&gt;Prélude à l&apos;installation&lt;/h2&gt; 
+&lt;p&gt;La version de Python installée sur ma Debian stable correspond au minimum requis (2.7)&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+bertrand@pc-bbo:~$ ls -l /usr/bin/python
+lrwxrwxrwx 1 root root 9 sept. 28  2013 /usr/bin/python -&amp;gt; python2.7
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;Avant d&apos;installer Pelican, il faut s&apos;assurer d&apos;avoir installé PIP et virtualenv&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+$ su -
+#&amp;nbsp;apt-get install python-pip
+# pip install virtualenv
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;p&gt;L&apos;installation via &lt;code&gt;PIP&lt;/code&gt; doit se faire en &lt;code&gt;root&lt;/code&gt; (ou avec &lt;code&gt;sudo&lt;/code&gt;) sous peine d&apos;avoir une erreur&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+`error: could not create &apos;/usr/local/lib/python2.7/dist-packages/virtualenv_support&apos;: Permission denied`
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Installation&lt;/h2&gt; 
+&lt;p&gt;L&apos;installation de Pelican proprement dite est bien expliquée sur la &lt;a href=&quot;http://docs.getpelican.com/en/3.4.0/install.html&quot;&gt;documentation officielle&lt;/a&gt;&lt;/p&gt; 
+&lt;p&gt;Comme conseillé, j&apos;installe Pelican (et Markdown) dans un environnement virtuel que je cache dans mon répertoire personnel :&lt;/p&gt; 
+&lt;pre&gt;&lt;code&gt;:::console
+bertrand@pc-bbo:~$ mkdir .virtualenv .virtualenv/pelican
+bertrand@pc-bbo:~$ cd .virtualenv/pelican
+bertrand@pc-bbo:~/.virtualenv/pelican$ virtualenv .
+New python executable in ./bin/python
+Installing setuptools, pip...done.
+bertrand@pc-bbo:~/.virtualenv/pelican$ ls
+bin  include  lib  local
+bertrand@pc-bbo:~/.virtualenv/pelican$ source bin/activate
+(pelican)bertrand@pc-bbo:~/.virtualenv/pelican$ pip install pelican markdown
+&lt;/code&gt;&lt;/pre&gt; 
+&lt;h2&gt;Configuration&lt;/h2&gt; 
+&lt;p&gt;Une configuration de base est générée grâce au script &lt;code&gt;pelican-quickstart&lt;/code&gt;. Ce script génère deux fichiers de configuration :&lt;br&gt; - 1 pour le site en local (&lt;code&gt;pelicanconf.py&lt;/code&gt;)&lt;br&gt; - 1 pour le site en ligne (&lt;code&gt;pelicanpublish.conf&lt;/code&gt;)&lt;br&gt; Pour le reste, tout est dans la &lt;a href=&quot;http://docs.getpelican.com/en/3.4.0&quot;&gt;documentation très complète&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;Je voulais des URL simplifiée avec une arborescence de date. Par exemple, &lt;code&gt;http://www.bertrand-bousquet.info/articles/2014/08/13/mise-en-place-pelican&lt;/code&gt;. C&apos;est tout à fait possible grâce aux propriétés &lt;code&gt;ARTICLE_URL&lt;/code&gt; et &lt;code&gt;ARTICLE_SAVE_AS&lt;/code&gt;.&lt;/p&gt; 
+&lt;p&gt;Il est aussi possible de faire des archives par année, par mois et même par jour, via les propriétés &lt;code&gt;YEAR_ARCHIVE_SAVE_AS&lt;/code&gt;, &lt;code&gt;MONTH_ARCHIVE_SAVE_AS&lt;/code&gt; et &lt;code&gt;DAY_ARCHIVE_SAVE_AS&lt;/code&gt;. Mais je remets cela à plus tard.&lt;/p&gt; 
+&lt;p&gt;Enfin, niveau thème, il faut cloner le &lt;a href=&quot;https://github.com/getpelican/pelican-themes&quot;&gt;dépôt git&lt;/a&gt; et modifier la propriété &lt;code&gt;THEME&lt;/code&gt; du fichier de configuration pour pointer vers le bon. C&apos;est simple, rapide et pratique.&lt;/p&gt; 
+&lt;h2&gt;&amp;nbsp;Utilisation&lt;/h2&gt; 
+&lt;p&gt;J&apos;écris mes billets en &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. N&apos;ayant pas besoin d&apos;être plus précis, je ne renseigne la date qu&apos;au jour près (Par exemple &lt;code&gt;Date: 2014-08-19&lt;/code&gt;). Dans mon cas, renseigner l&apos;heure et la minute me paraissait être de l&apos;overkill. Cela fonctionne sans aucune configuration car Pelican supporte les formats de dates &lt;a href=&quot;http://www.w3.org/TR/NOTE-datetime&quot;&gt;suggérées par le W3C&lt;/a&gt;.&lt;/p&gt; 
+&lt;p&gt;On peut ajouter du code dans les billets via un bloc qui commence par &lt;code&gt;:::lexer&lt;/code&gt;. . Visiblement, la coloration syntaxique n&apos;implique pas de module supplémentaire (Pygments est suffisant). J&apos;avoue ne pas avoir creusé cette partie pour le moment.&lt;/p&gt; 
+&lt;h2&gt;&amp;nbsp;Génération&lt;/h2&gt; 
+&lt;p&gt;Pour générer le site, j&apos;utilise Make plutôt que Fabric. En effet, Make faisant le boulot, je ne voyais pas pourquoi j&apos;allais installer un autre module.&lt;/p&gt; 
+&lt;h2&gt;Et après ?&lt;/h2&gt; 
+&lt;p&gt;Sur le dépôt GitHub, l&apos;équipe et les contributeurs de Pelican proposent toute une &lt;a href=&quot;https://github.com/getpelican/pelican-plugins&quot;&gt;série de plugins&lt;/a&gt; très pratiques, comme par exemple :&lt;/p&gt; 
+&lt;ul&gt; 
+ &lt;li&gt;Le plugin gallery couplé au plugin thumbnailer pour faire une belle galerie photo&lt;/li&gt; 
+ &lt;li&gt;Le plugin pelican_comment_system pour gérer les commentaires statiquement et en Markdown.&lt;/li&gt; 
+&lt;/ul&gt;
+	</description>
+    </item>
+
+  </channel> 
+</rss>
